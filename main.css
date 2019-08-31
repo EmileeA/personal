@@ -1,0 +1,39 @@
+
+
+body {
+    background-color: lightsalmon;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+h3 {
+    margin-top: 2em;
+}
+
+#navLinks {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+#navLinks li {
+    display: inline-block;
+    
+}
+
+#navLinks ul {
+    list-style-type: none;
+}
+
+.page-footer h4 {
+    margin-top: 3em;
+    text-align: center;
+}
+
+.technologiesList {
+    list-style-type: circle;
+}
