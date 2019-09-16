@@ -1,20 +1,30 @@
 
 
 body {
-    background-color: lightsalmon;
+    background-color: bisque;
 }
+
+.fullPage {
+    max-width: 90%;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 3px 3px 7px -2px;
 
 .footerLinks {
     display: flex;
     justify-content: space-evenly;
-    
 }
 
 h3 {
-    margin-top: 2em;
+    margin-top: 3em;
 }
 
-#navLinks {
+/* #navLinks {
     display: flex;
     align-items: baseline;
     justify-content: space-evenly;
@@ -23,17 +33,20 @@ h3 {
 #navLinks li {
     display: inline-block;
     
-}
+} */
 
-#navLinks ul {
+/* #navLinks ul {
     list-style-type: none;
-}
+} */
 
 .page-footer h4 {
     margin-top: 3em;
     text-align: center;
 }
 
-.technologiesList {
-    list-style-type: circle;
+footer ul {
+    justify-content: space-around;
 }
+/* .technologiesList {
+    list-style-type: circle;
+} */
