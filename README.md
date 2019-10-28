@@ -5,7 +5,7 @@
 
 ## Screenshots
 
-![personal Bio screenshot](https://raw.githubusercontent.com/EmileeA/personal/master/screenshots/Personal%20-%20On%20Load.png)
+![personal Bio screenshot](https://raw.githubusercontent.com/EmileeA/personal/master/screenshots/Personal%20-%20On%20LoadNew.png)
 
 ## Instructions for how to run the project
 
