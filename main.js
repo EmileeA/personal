@@ -69,7 +69,7 @@ const createProjectCards = () => {
     if (projects[i].available === true) {
       domString += `<div class="project">`;
       domString += `<h3>${projects[i].title}</h3>`;
-      domString += `<img src="${projects[i].screenshot}">`;
+      domString += `<img class="projectImages" src="${projects[i].screenshot}">`;
       domString += `<p>${projects[i].description}</p>`;
       domString += `<p>${projects[i].technologiesUsed}</p>`;
       domString += `<p>${projects[i].url}</p>`;
@@ -77,7 +77,7 @@ const createProjectCards = () => {
       domString += `</div>`;
     }
   }
-  printToDom("projectsPage", domString);
+  printToDom("projectsBody", domString);
 };
 
 const init = () => {
