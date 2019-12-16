@@ -19,20 +19,19 @@ const createNavBar = () => {
 
   utilities.printToDom('navBody', domString);
 };
-const scrollToId = (divId) => {
-  const height = document.getElementById(divId).scrollHeight;
-  window.scrollTo({ top: height, behavior: 'smooth' });
-};
 
 const navClick = () => {
   document.getElementById('navToBio').addEventListener('click', () => {
-    scrollToId('bioPage');
+    const height = document.getElementById('bioPage').scrollHeight;
+    window.scrollTo({ top: height, behavior: 'smooth' });
   });
   document.getElementById('navToTechnologies').addEventListener('click', () => {
-    scrollToId('bioPage');
+    const height = document.getElementById('technologiesPage').scrollHeight;
+    window.scrollTo({ top: height, behavior: 'smooth' });
   });
   document.getElementById('navToProjects').addEventListener('click', () => {
-    scrollToId('bioPage');
+    const height = document.getElementById('projectsPage').scrollHeight;
+    window.scrollTo({ top: height, behavior: 'smooth' });
   });
 };
 
