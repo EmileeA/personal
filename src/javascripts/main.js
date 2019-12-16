@@ -11,11 +11,13 @@
 //    if it has a value of true in the available property.
 // 5. Call the createProjectCards(); function in an init function that runs when the project loads.
 import '../styles/main.scss';
+import utilities from './helpers/utilities';
+import navBar from './components/navBar/navBar';
 
-const printToDom = (divId, textToPrint) => {
-  const selectedDiv = document.getElementById(divId);
-  selectedDiv.innerHTML = textToPrint;
-};
+// const printToDom = (divId, textToPrint) => {
+//   const selectedDiv = document.getElementById(divId);
+//   selectedDiv.innerHTML = textToPrint;
+// };
 
 const projects = [
   {
@@ -67,6 +69,7 @@ const projects = [
 
 const createProjectCards = () => {
   let domString = '';
+  // eslint-disable-next-line no-plusplus
   for (let i = 0; i < projects.length; i++) {
     if (projects[i].available === true) {
       domString += '<div class="project">';
@@ -79,10 +82,12 @@ const createProjectCards = () => {
       domString += '</div>';
     }
   }
-  printToDom('projectsBody', domString);
+  utilities.printToDom('projectsBody', domString);
 };
 
 const init = () => {
+  navBar.createNavBar();
+  navBar.navClick();
   createProjectCards();
 };
 
