@@ -1,0 +1,30 @@
+{
+    "Project1": {
+    "title": "Star Destroyer",
+    "screenshot": "screenshots/StarDestroyer-Main.png",
+    "description": "Use this application to view the Star Destroyer Database and edit its content.",
+    "technologiesUsed": "HTML5, CSS3, JavaScript, Jquery, Bootstrap 4, webpack & Firebase",
+    "available": true,
+    "url": "https://star-destroyer-63baf.firebaseapp.com",
+    "githubUrl": "https://github.com/EmileeA/nutshell-star-destroyer"
+  },
+
+    "Project2": {
+    "title": "Dark Knight",
+    "screenshot": "screenshots/Chatty - Dark.png",
+    "description": "A Dark Knight themed messaging app. This project demonstrates the authors' fluency in the use of Webpack, modules, SASS, Bootstrap, vanilla JavaScript, jQuery and HTML.",
+    "technologiesUsed": "SASS, Bootstrap, vanilla JavaScript, jQuery and HTML.",
+    "available": true,
+    "url": "https://darkknight-e5c4c.firebaseapp.com",
+    "githubUrl": "https://github.com/nss-evening-cohort-10/chatty-group-project-tree-frogs"
+  },
+    "Project3": {
+    "title": "Sorting Hat",
+    "screenshot": "https://raw.githubusercontent.com/EmileeA/sortinghat/master/screenshots/sorting-hat.png",
+    "description": "Allows you to sort students into one of the harry potter houses.",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Bootsrap, Version Control with Github",
+    "available": true,
+    "url": "https://sortinghat-32101.firebaseapp.com",
+    "githubUrl": "https://github.com/EmileeA/sortinghat"
+  }
+}
