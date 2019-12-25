@@ -31,14 +31,19 @@
   padding-top: 30px;
   padding-bottom: 0px;
   flex-wrap: nowrap;
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 450;
+  right: 0;
+  top: 150%;
 }
 
 
 .project {
-  // border: 1px solid black;
   margin: 0px 15px 30px 15px;
   padding: 15px;
-  // width: 100%;
+
 }
 
 #project {
@@ -54,38 +59,32 @@
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  background-color: white;
+  background-color: transparent;
   text-align: center;
   padding: 15px;
   margin: 15px;
-  box-shadow: 3px 3px 7px -2px;
 }
 
 .projectBody {
   position: relative;
 }
 
-// h3 {
-//   margin-top: 3em;
-//   display: flex;
-//   justify-content: center;
-// }
-
-// h1 {
-//   margin-top: 3em;
-//   display: flex;
-//   justify-content: center;
-// }
 .navbar {
-  color: white;
+  // color: white;
   max-width: 90%;
   width: 1000px;
-  padding: 15px;
-  margin: 15px;
-  text-align: center;
+  // padding: 15px;
+  // margin: 15px;
+  // text-align: center;
   display: flex;
   justify-content: center;
-  box-shadow: 3px 3px 7px -2px;
-  margin-left: auto;
-  margin-right: auto;
+  // box-shadow: 3px 3px 7px -2px;
+  // margin-left: auto;
+  // margin-right: auto;
+  position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 50;
+    right: 50;
+    top: 10%;
 }
