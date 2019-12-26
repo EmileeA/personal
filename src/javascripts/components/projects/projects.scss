@@ -3,89 +3,83 @@
 #imageContainer {
   text-align: center;
   width: 100%;
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 15%;
+  right: 25%;
+  top: 100%;
 }
 
 #imageContainer img {
   text-align: center;
-  width: 200px;
+  width: 50%;
+  height: 70%;
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 15%;
+  right: 25%;
+  top: 100%;
 }
 
 .projectMove {
   border: none;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  // padding: 15px;
-}
-
-.fullPage-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 15%;
+  right: 25%;
+  top: 100%;
 }
 
 .project-container {
-  border: none;
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 30px;
-  padding-bottom: 0px;
-  flex-wrap: nowrap;
+  color: white;
+  // border: none;
+  // display: flex;
+  // justify-content: space-evenly;
+  // padding-top: 5%;
+  // padding-bottom: 0%;
+  // flex-wrap: nowrap;
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 15%;
+  right: 25%;
+  top: 100%;
 }
 
 
 .project {
   // border: 1px solid black;
-  margin: 0px 15px 30px 15px;
-  padding: 15px;
-  // width: 100%;
-}
-
-#project {
-  // border: 1px solid black;
-  margin: 0px 15px 30px 15px;
-  padding: 15px;
-  // width: 100%;
-}
-
-
-.fullPage {
-  max-width: 90%;
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: white;
-  text-align: center;
-  padding: 15px;
-  margin: 15px;
-  box-shadow: 3px 3px 7px -2px;
+  // margin: 0px 15px 30px 15px;
+  // padding: 15px;
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 15%;
+  right: 25%;
+  top: 100%;
 }
 
 .projectBody {
-  position: relative;
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 15%;
+  right: 25%;
+  top: 100%;
 }
 
-// h3 {
-//   margin-top: 3em;
-//   display: flex;
-//   justify-content: center;
-// }
-
-// h1 {
-//   margin-top: 3em;
-//   display: flex;
-//   justify-content: center;
-// }
 .navbar {
-  color: white;
-  max-width: 90%;
-  width: 1000px;
-  padding: 15px;
-  margin: 15px;
-  text-align: center;
+  max-width: 100%;
+  // width: 90%;
   display: flex;
   justify-content: center;
-  box-shadow: 3px 3px 7px -2px;
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
+  z-index: 999;
+  margin: 1%;
+  left: 18%;
+  right: 20%;
+  top: 10%;
 }

@@ -1,10 +1,25 @@
 
 .icons {
-  font-size: 6rem;
-  padding: 10px;
-  color: lightblue;
+  font-size: 5.5rem;
+  padding: 2%;
+  color: black;
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 2%;
+  right: 2%;
+  top: 55%;
 }
 
 i {
-    margin: 30px;
+    margin: 1%;
+}
+
+.tech-container {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 6%;
+    right: 6%;
+    top: 60%;
 }

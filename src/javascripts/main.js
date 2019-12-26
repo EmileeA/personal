@@ -9,7 +9,6 @@ import '@fortawesome/fontawesome-free/js/all';
 
 import apiKeys from './helpers/apiKeys.json';
 import technologies from './components/technologies/technologies';
-
 //   {
 //     title: 'Tamagotchi',
 //     screenshot: 'https://raw.githubusercontent.com/EmileeA/tamagotchi/master/src/screenshots/Tamagotchi%20-%20load.png',
