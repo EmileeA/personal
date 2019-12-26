@@ -16,6 +16,7 @@ const createTechnologies = () => {
           <i class="devicon-github-plain-wordmark"></i>
           <i class="devicon-webpack-plain-wordmark"></i>
           <i class="devicon-visualstudio-plain"></i>
+          <i class="devicon-firebase-plain"></i>
         </div>
   `;
   utilities.printToDom('technologiesPage', domString);

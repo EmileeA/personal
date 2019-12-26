@@ -1,7 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-    background-color: lightgray;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -9,13 +8,17 @@ body {
 }
 
 .homeImg {
+    position: fixed;
     width: 100%;
     height: 100%;
     max-height: 100%;
-    margin: 0;
-    padding: 0;
+    margin-top: 0%;
     background-size:100% 100%;
     background-repeat: no-repeat;
+}
+
+#bioPage {
+padding-top: 2%;
 }
 
 h1 {
@@ -26,9 +29,13 @@ h1 {
     position: absolute;
     z-index: 999;
     margin: 0 auto;
-    left: 50;
-    right: 50;
+    left: 25%;
+    right: 25%;
     top: 5%;
+}
+
+h2 {
+    text-align: center;
 }
 
 h3 {
@@ -39,55 +46,34 @@ h3 {
 
 
 .fullPage-container {
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     // align-items: center;
     position: absolute;
     z-index: 999;
     margin: 0 auto;
-    left: 450;
-    right: 0;
+    left: 20%;
+    right: 20%;
     top: 20%;
     background-color: none;
 }
 
-.project {
-    border: 1px solid black;
-    margin: 0px 15px 30px 15px;
-    padding: 15px;
+.fullPage {
+//   max-width: 90%;
+//   width: 1000px;
+//   margin-left: auto;
+//   margin-right: auto;
+//   background-color: transparent;
+//   text-align: center;
+//   padding: 15px;
+//   margin: 15px;
 }
-
-
 
 .footerLinks {
     display: flex;
     justify-content: space-evenly;
 }
-
-// .projectImages {
-//     width: 100%;
-// };
-
-// .projectBody {
-//     // position: relative;
-//     position: absolute;
-//     z-index: 999;
-//     margin: 0 auto;
-//     left: 450;
-//     right: 0;
-//     top: 40%;
-// }
-
-.tech {
-    position: absolute;
-    z-index: 999;
-    margin: 0 auto;
-    left: 450;
-    right: 00;
-    top: 47%;
-}
-
 
 .page-footer h4 {
     margin-top: 3em;
