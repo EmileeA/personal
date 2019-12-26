@@ -11,10 +11,10 @@ const createProjectCards = () => new Promise((resolve, reject) => {
         domString += `
         <div class="project">
             <h3>${project.title}</h3>
-            <div id="imageContainer">
+            <div class="imageContainer">
             <img src="${project.screenshot}" alt="${project.title}">
             </div>
-            <div class="project-container">${project.description}</div>
+            <div class="project-description">${project.description}</div>
             <div><strong>Technologies Used:</strong> ${project.technologiesUsed}</div>
             <a href="${project.url}" target="_blank">Project Link</a>
             <a href="${project.githubUrl}" target="_blank"><i class="githubProj fab fa-github"></i> GitHub</a>
