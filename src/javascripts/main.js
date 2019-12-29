@@ -9,6 +9,7 @@ import '@fortawesome/fontawesome-free/js/all';
 
 import apiKeys from './helpers/apiKeys.json';
 import technologies from './components/technologies/technologies';
+import home from './components/home/home';
 //   {
 //     title: 'Tamagotchi',
 //     screenshot: 'https://raw.githubusercontent.com/EmileeA/tamagotchi/master/src/screenshots/Tamagotchi%20-%20load.png',
@@ -46,6 +47,7 @@ const init = () => {
   navBar.navClick();
   myProjects.createProjectCards();
   technologies.createTechnologies();
+  home.displayHomeImg();
 };
 
 init();
