@@ -47,7 +47,7 @@ const init = () => {
   navBar.navClick();
   myProjects.createProjectCards();
   technologies.createTechnologies();
-  home.displayHomeImg();
+  home.displayHome();
 };
 
 init();

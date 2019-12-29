@@ -1,10 +1,12 @@
 import utilities from '../../helpers/utilities';
-import image from '../../screenshots/tevin-trinh-npGw8vk83WQ-unsplash.jpg';
+import image from '../../../../screenshots/tevin-trinh-npGw8vk83WQ-unsplash.jpg';
+import './home.scss';
 
-const displayHomeImg = () => {
-  const domString = `img src="${image}"`;
+const displayHome = () => {
+  let domString = '';
+  domString += `<img src="${image}">`;
 
-  utilities.printToDom('.homeImg', domString);
+  utilities.printToDom('homeId', domString);
 };
 
-export default { displayHomeImg };
+export default { displayHome };

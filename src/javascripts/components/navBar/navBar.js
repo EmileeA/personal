@@ -16,7 +16,6 @@ const createNavBar = () => {
   </ul>
 </div>
 </nav>`;
-
   utilities.printToDom('navBody', domString);
 };
 
