@@ -4,7 +4,7 @@ import './home.scss';
 
 const displayHome = () => {
   let domString = '';
-  domString += `<img src="${image}">`;
+  domString += `<img src="${image}" id="mainImg">`;
 
   utilities.printToDom('homeId', domString);
 };
